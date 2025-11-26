@@ -24,13 +24,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Change to documents directory
+        run: cd ./docs
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: 'npm'
-      - name: Change to documents directory
-        run: cd ./docs
       - name: Build OpenAPI Page
         run: npm run build-openapi
       - name: Upload artifact
