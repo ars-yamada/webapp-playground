@@ -34,7 +34,7 @@ jobs:
       - name: Build OpenAPI Page
         run: npm run build-openapi
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v5
         with:
           name: ./dist
       - name: Deploy to GitHub Pages
