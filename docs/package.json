@@ -1,0 +1,7 @@
+{
+  "name": "docs",
+  "description": "Documentation for WebApp Playground",
+  "scripts": {
+    "build-openapi": "npx --yes @redocly/cli@latest build-docs ./openapi/openapi.yml --output ./dist/openapi/openapi.html"
+  }
+}
