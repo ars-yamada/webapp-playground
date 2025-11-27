@@ -1,5 +1,7 @@
 # Nuxt Minimal Starter
 
+This is a minimal Nuxt 3 project starter template.
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
